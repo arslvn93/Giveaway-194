@@ -1,21 +1,21 @@
 const config = {
   "meta": {
-    "pageTitle": "Win $400 Blue Jays Tickets - Summer Game Night Giveaway!",
-    "navBrandLogoText": "Julian Kashani",
-    "privacyPolicyLink": "https://property.ca/privacy"
+    "pageTitle": "Win a $600 Uxbridge Home Refresh, Local Family Giveaway",
+    "navBrandLogoText": "Colin Noble",
+    "privacyPolicyLink": "https://noblerealestate.ca/"
   },
   "giveaway": {
-    "heroHeadline": "Win <span class='highlight'>Free Toronto Blue Jays Tickets</span> for an Epic Summer Game Night!",
-    "heroSubheadline": "Score two premium seats to see the Toronto Blue Jays take on the Texas Rangers, valued at $400! Make your summer unforgettable with this all-star night out. Entry closes July 25th, winner picked July 29th.",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3x4pjwf8h1rma0cqhn6tw7t808.jpg",
-    "promotionDates": "Enter from June 27th to July 25th, 2025 - winner announced July 29th!",
-    "endDate": "2026-12-31T23:59:00.000Z",
+    "heroHeadline": "Win <span class='highlight'>$600 Home Refresh</span> for Your Uxbridge Home! Get <span class='highlight'>Pro Window Cleaning + Junk Removal</span>.",
+    "heroSubheadline": "Shine your windows inside and out. Clear one truckload of junk. Feel proud of your home again. Uxbridge area only. Entry ends June 19, 2026.",
+    "heroBackgroundImageUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/giveaways/generations/zd97y8meqhrmt0cy832rr5t4q8.jpg",
+    "promotionDates": "Enter May 25, 2026 to June 19, 2026. Winner announced June 19, 2026.",
+    "endDate": "2026-06-20T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
-    "entryFormCtaText": "Enter Game Night Draw!",
-    "name": "Blue Jays Summer Game Night Giveaway",
+    "entryFormCtaText": "Enter My Home Now!",
+    "name": "Uxbridge Home Refresh Giveaway",
     "successModalHeaderText": "You’re in the Draw!",
-    "successModalMainMessage": "Your entry for the <strong>Toronto Blue Jays Summer Game Night</strong> is in! Winner will be announced July 29th and notified by email. Good luck!",
-    "successModalEmailPrompt": "Watch your email and keep July 29th on your calendar—you could be on your way to the ballpark!"
+    "successModalMainMessage": "Your entry for the <strong>Uxbridge Home Refresh Giveaway</strong> is in. We will draw on June 19, 2026 and contact the winner by email. Good luck!",
+    "successModalEmailPrompt": "Watch your inbox on June 19, 2026. We will also share the winner on our social pages."
   },
   "settings": {
     "confettiColors": [
@@ -25,79 +25,83 @@ const config = {
     ],
     "showCountdownInHero": true,
     "theme": "dark",
-    "primaryColorOverride": "#0055A4",
+    "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": "",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
-    "turnstileSiteKey": "0x4AAAAAAB5SpbWeBo7JnEIs",
-    "turnstileReplitSiteId": "0c27b526-888c-489b-8f11-66d1fcba1bfa"
+    "followUpBossEmail": ""
+  },
+  "thankYouPage": {
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You’re In the Running!",
+    "mainMessage": "Your entry for the <strong>Uxbridge Home Refresh Giveaway</strong> is in. We will draw on June 19, 2026 and contact the winner by email. Good luck!",
+    "socialPromptText": "Watch your inbox on June 19. We will also share the winner on our social pages."
   },
   "prize": {
     "images": [
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/hg2dnqs7yhrm80cqhn79nt68j8.jpg",
-        "alt": "Cheering fans at a Blue Jays baseball game"
+        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/giveaways/generations/szv685snaxrmt0cy833bymvk3c.jpg",
+        "alt": "Sparkling clean home windows shining in the sun"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/bk4ehhbc35rmc0cqhn78wzw7t8.jpg",
-        "alt": "Couple enjoying a summer night at the Rogers Centre"
+        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/giveaways/generations/7vz8exg5s9rmw0cy833t5yxt1r.jpg",
+        "alt": "Pickup truck loaded with household junk for removal"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/w99mghnswxrm80cqhn7bm108b0.jpg",
-        "alt": "Exciting baseball action between Toronto Blue Jays and Texas Rangers"
+        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/giveaways/generations/034agywpwsrmt0cy833t4v65xw.jpg",
+        "alt": "Happy family standing outside a tidy Uxbridge home"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/wzcq768e4drme0cqhn7v49g7tr.jpg",
-        "alt": "Tickets for a premier Blue Jays game experience"
+        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/giveaways/generations/stt6vdgsenrmr0cy8348qfeh8g.jpg",
+        "alt": "Front porch with bright windows and clean curb appeal"
       }
     ],
     "includedItems": [
       {
-        "icon": "fas fa-baseball-ball",
-        "text": "Two premium tickets to Blue Jays vs. Rangers"
+        "icon": "fas fa-window-maximize",
+        "text": "Interior and exterior window cleaning by trusted local pros"
       },
       {
-        "icon": "fas fa-user-friends",
-        "text": "Perfect for couples, friends, or a special family outing"
+        "icon": "fas fa-truck",
+        "text": "One pickup truck load of junk hauled away"
       },
       {
-        "icon": "fas fa-star",
-        "text": "$400 total value - for a big-time experience"
+        "icon": "fas fa-calendar-check",
+        "text": "Easy scheduling with you, weather permitting"
       },
       {
-        "icon": "fas fa-city",
-        "text": "Catch live baseball in downtown Toronto"
+        "icon": "fas fa-home",
+        "text": "Instant curb appeal and a fresher home"
       },
       {
-        "icon": "fas fa-calendar-day",
-        "text": "Game date: Summer 2025, Texas Rangers matchup"
+        "icon": "fas fa-leaf",
+        "text": "Feel light, clear, and ready for summer"
       }
     ],
-    "name": "Toronto Blue Jays Summer Game Night Experience",
-    "value": "$400 Value",
-    "description": "Imagine you and your favorite person cheering in the stands as the Blue Jays play live against the Texas Rangers! Feel the rush, eat ballpark snacks, and enjoy a big summer night in the city. This giveaway gets you <span class='highlight'>two premium tickets</span> for the best seats in the house. Whether it’s a fun date or a night with a friend, you’ll remember it all year long.",
-    "limitedTimeOfferText": "Summer Only - Limited Entry!",
-    "ctaButtonText": "I Want These Game Tickets!"
+    "name": "Uxbridge Home Refresh Giveaway",
+    "value": "$600 Value",
+    "description": "Picture this. The sun is out. Your windows sparkle. The porch looks fresh. The garage and basement feel clear. We clean your windows inside and out. We haul away one pickup truck of old stuff. No stress. No mess. Your home is ready for summer and you feel great.",
+    "limitedTimeOfferText": "Uxbridge Only, Ends June 19",
+    "ctaButtonText": "I Want My Home Refresh!"
   },
   "howToEnter": {
     "steps": [
       {
-        "icon": "fas fa-instagram",
-        "title": "Follow Instagram Account",
-        "description": "Follow our Instagram account to stay connected and get updates on the giveaway."
+        "icon": "fas fa-edit",
+        "title": "Follow me on Instagram",
+        "description": "Follow me @_noblerealestate"
       },
       {
         "icon": "fas fa-question-circle",
-        "title": "Answer Simple Questions",
-        "description": "Tell us a little about who you’d bring and why you’d love this summer baseball night."
+        "title": "Answer 4 Quick Questions",
+        "description": "Tell us a bit about your home plans."
       },
       {
         "icon": "fas fa-trophy",
-        "title": "Get Your Chance to Win!",
-        "description": "That’s it! Watch your inbox—winner picked July 29th."
+        "title": "You’re Entered!",
+        "description": "We pick a random winner on June 19. Watch your email."
       }
     ],
     "highlights": [
@@ -120,158 +124,173 @@ const config = {
     ]
   },
   "rules": {
+    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
+    "showTipsSection": true,
     "faq": [
       {
-        "q": "Who can enter this giveaway?",
-        "a": "Anyone 18 or older living in Ontario can enter. Couples, families, and friends are welcome!"
+        "q": "Who can enter?",
+        "a": "Ontario residents who are 18+ and live in Uxbridge or the immediate area. One entry per person."
+      },
+      {
+        "q": "What is in the prize?",
+        "a": "Interior and exterior window cleaning plus one pickup truck load of household junk removed. $600 value."
+      },
+      {
+        "q": "What items can you take?",
+        "a": "Household junk and unwanted items. We cannot take hazardous materials, chemicals, paint, asbestos, construction waste, or restricted items."
+      },
+      {
+        "q": "Do I need to be home?",
+        "a": "Yes, for inside windows and to confirm what to remove. Please have items easy to access."
+      },
+      {
+        "q": "How is the date set?",
+        "a": "We pick a date with you. Window cleaning depends on weather and availability."
       },
       {
         "q": "How will I know if I win?",
-        "a": "Winner will get an email from jk@property.ca on July 29th. Check your inbox and spam!"
+        "a": "We will email you on June 19, 2026. We may also call you. Check your inbox and spam."
       },
       {
-        "q": "Do I have to pay for anything?",
-        "a": "Nope—the tickets are totally free! Just show up and enjoy the game."
+        "q": "Do I need to be selling my home?",
+        "a": "No. This is a local giveback to help a family refresh their home."
       },
       {
-        "q": "What if I can’t make the game?",
-        "a": "If you can’t attend, let us know so someone else can use this amazing prize."
+        "q": "Is this really free?",
+        "a": "Yes. No purchase needed. The prize covers the services listed."
+      },
+      {
+        "q": "Can renters enter?",
+        "a": "Yes, if you live in the Uxbridge area and have permission for the services."
       }
     ],
     "tips": [
-      "Double-check your email for typos—make sure you can be reached",
-      "Think of who you'd take for this special night",
-      "Tell family and friends to enter too",
-      "Follow Julian Kashani on Instagram or Facebook for the winner post"
+      "Double check your email for typos, make sure you can be reached",
+      "Make sure you live in Uxbridge or nearby before entering",
+      "Have a quick idea of what you would want removed if you win",
+      "Follow Colin Noble on Instagram or Facebook for the winner post"
     ],
-    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
-    "showTipsSection": true,
     "fairSelectionInfo": {
-      "title": "Fair and Random Drawing",
-      "text": "Every entry has the same fair shot! Winner is chosen by a random draw. No tricks, just luck."
+      "title": "Fair and Random Winner Selection",
+      "text": "We use a random draw. Every valid entry has the same chance to win. No tricks. No bias."
     },
     "importantNotice": {
-      "title": "Watch Your Email",
-      "text": "Only the email you use here will be contacted. Be sure to check your spam, too, on July 29th."
+      "title": "Service Area and Limits",
+      "text": "Winner must live in Uxbridge or the immediate area. Window cleaning will be set for a future date with you. Weather may delay the clean. Junk removal allows one pickup truck load of household items. No hazardous items, chemicals, paint, asbestos, or construction waste. Make sure items are easy to reach on pickup day."
     }
   },
   "entryForm": {
     "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin",
-      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin&text=Win%20Toronto%20Blue%20Jays%20Tickets%20for%20an%20Epic%20Summer%20Game%20Night!"
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-194.netlify.app%2Fadmin",
+      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-194.netlify.app%2Fadmin&text=Win%20a%20%24600%20Uxbridge%20Home%20Refresh%2C%20Local%20Family%20Giveaway"
     },
-    "subtitle": "Enter your details below for a shot at your dream Blue Jays night out!",
-    "entryCountText": "Hundreds of Toronto fans are already in—don't miss your chance!",
-    "socialSharePrompt": "Share with your friends—make it a race to win!",
-    "consentLabel": ""
+    "subtitle": "Enter your details for a chance to win a $600 Uxbridge Home Refresh!",
+    "entryCountText": "Uxbridge families are entering now. Don’t miss out.",
+    "socialSharePrompt": "Share with your Uxbridge friends so they can enter too:"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1760120269880_0",
-      "questionText": "What do you like the most about your current home?",
+      "id": "q_auto_1750445840887_0",
+      "questionText": "What's your current situation?",
       "options": [
         {
-          "value": "The location",
-          "text": "The location"
+          "value": "I own my home",
+          "text": "I own my home"
         },
         {
-          "value": "The layout",
-          "text": "The layout"
+          "value": "I rent",
+          "text": "I rent"
         },
         {
-          "value": "The finishes (paint, lighting, etc.)",
-          "text": "The finishes (paint, lighting, etc.)"
+          "value": "Live with family/friends",
+          "text": "Live with family/friends"
         },
         {
-          "value": "The outdoor space",
-          "text": "The outdoor space"
+          "value": "Between homes",
+          "text": "Between homes"
         }
       ]
     },
     {
-      "id": "q_auto_1760120269880_1",
-      "questionText": "Is a move on your radar in the near future?",
+      "id": "q_auto_1750445840887_1",
+      "questionText": "What are you looking to do?",
       "options": [
         {
-          "value": "Yes, sometime in 2025",
-          "text": "Yes, sometime in 2025"
+          "value": "Buy a home",
+          "text": "Buy a home"
         },
         {
-          "value": "Yes, in the next 1–2 years",
-          "text": "Yes, in the next 1–2 years"
+          "value": "Sell and buy",
+          "text": "Sell and buy"
         },
         {
-          "value": "Not at the moment",
-          "text": "Not at the moment"
+          "value": "Rent a place",
+          "text": "Rent a place"
         },
         {
-          "value": "I’m not sure yet",
-          "text": "I’m not sure yet"
+          "value": "Invest in property",
+          "text": "Invest in property"
+        },
+        {
+          "value": "Staying put",
+          "text": "Staying put"
         }
       ]
     },
     {
-      "id": "q_auto_1760120269880_2",
-      "questionText": "What’s your current housing situation?",
+      "id": "q_auto_1750445840887_2",
+      "questionText": "When are you planning to move?",
       "options": [
         {
-          "value": "I rent and am interested in buying",
-          "text": "I rent and am interested in buying"
+          "value": "ASAP",
+          "text": "ASAP"
         },
         {
-          "value": "I own and might sell within 2 years",
-          "text": "I own and might sell within 2 years"
+          "value": "3-6 months",
+          "text": "3-6 months"
         },
         {
-          "value": "I own and am happy where I am",
-          "text": "I own and am happy where I am"
+          "value": "6-12 months",
+          "text": "6-12 months"
         },
         {
-          "value": "I’m actively looking to buy or sell now",
-          "text": "I’m actively looking to buy or sell now"
+          "value": "12+ months",
+          "text": "12+ months"
+        },
+        {
+          "value": "No plans",
+          "text": "No plans"
         }
       ]
     }
   ],
-  "thankYouPage": {
-    "socialLinks": {
-      "facebook": "",
-      "instagram": "",
-      "twitter": "",
-      "tiktok": ""
-    },
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 ONE MORE STEP",
-    "mainMessage": "Your spot for the <strong>Toronto Blue Jays Summer Game Night</strong> is almost locked in! You've made it to the final step of the giveaway - congratulations! Now all you need to do is follow my social media accounts to officially lock in your entry and stay connected",
-    "socialPromptText": "FOLLOW BOTH TO WIN! Complete Your Entry Now"
-  },
   "footerContact": {
     "social": {
-      "facebook": "https://www.facebook.com/JulianKashaniRealtor",
-      "instagram": "http://instagram.com/juliankashani"
+      "facebook": "https://www.facebook.com/colinnoblerealestate",
+      "instagram": "https://www.instagram.com/_noblerealestate"
     },
     "agentContact": {
-      "name": "Julian Kashani",
-      "title": "Real Estate Agent",
-      "phone": "(416) 837-7775",
-      "email": "jk@property.ca"
+      "name": "Colin Noble",
+      "title": "REALTOR",
+      "phone": "6479677116",
+      "email": "colin@noblerealestate.ca"
     },
-    "footerDisclaimer": "This giveaway is sponsored by Julian Kashani, REALTOR®, and is not sponsored by or affiliated with the Toronto Blue Jays or Texas Rangers. Winner selected at random from entries received by July 25th, 2025. Must be 18+ and an Ontario resident to enter.",
-    "organizerLogoUrl": "",
-    "secondaryLogoUrl": "",
-    "secondaryLogoAlt": "Property.Ca Brokerage Logo",
-    "organizerName": "Julian Kashani",
-    "brokerageName": "Property.Ca",
-    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "email": "jk@property.ca",
-    "phone": "(416) 837-7775",
-    "copyrightOwner": "Property.Ca"
+    "footerDisclaimer": "This giveaway is sponsored by Colin Noble at REAL Broker Ontario Ltd. and is not affiliated with Uxbridge Home Refresh Giveaway, Instagram, or Facebook. No purchase necessary. Ontario residents only. Must be 18+. One entry per person. Entries close 2026-06-19 at 11:59 PM ET. Winner selected at random on 2026-06-19. Odds depend on number of entries. By entering, you agree to our Privacy Policy.",
+    "organizerLogoUrl": "https://app.salesgenius.co/api/organization-logos/1f1829be-4f88-4f36-98a6-d20c334333a4?v=928e3b597888117a86e6f0d05d9e677bfddc09c50972ef367f48fff7136a7569",
+    "secondaryLogoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1769722493209-PrimaryLogoKO.png",
+    "secondaryLogoAlt": "Colin Noble",
+    "organizerName": "Colin Noble",
+    "brokerageName": "REAL Broker Ontario Ltd.",
+    "address": "130 KING ST W Unit 1900, Toronto, ON, M5X1E3",
+    "email": "colin@noblerealestate.ca",
+    "phone": "6479677116",
+    "copyrightOwner": "Colin Noble"
   },
   "deploymentInfo": {
-    "repoName": "giveaway",
-    "repoUrl": "https://github.com/arslvn93/giveaway",
-    "netlifyUrl": "http://giveawaymain.netlify.app",
+    "repoName": "Giveaway-194",
+    "repoUrl": "https://github.com/arslvn93/Giveaway-194",
+    "netlifyUrl": "http://Giveaway-194.netlify.app",
     "netlifyId": "",
-    "tag": "Blue Jays Giveaway"
+    "tag": "Uxbridge Home Refresh Giveaway"
   }
 };
