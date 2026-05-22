@@ -28,16 +28,11 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
+    "turnstileSiteKey": "",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You’re In the Running!",
-    "mainMessage": "Your entry for the <strong>Uxbridge Home Refresh Giveaway</strong> is in. We will draw on June 19, 2026 and contact the winner by email. Good luck!",
-    "socialPromptText": "Watch your inbox on June 19. We will also share the winner on our social pages."
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -54,7 +49,7 @@ const config = {
         "alt": "Happy family standing outside a tidy Uxbridge home"
       },
       {
-        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/giveaways/generations/stt6vdgsenrmr0cy8348qfeh8g.jpg",
+        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-iStock-162353098res.jpg",
         "alt": "Front porch with bright windows and clean curb appeal"
       }
     ],
@@ -124,8 +119,6 @@ const config = {
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
-    "showTipsSection": true,
     "faq": [
       {
         "q": "Who can enter?",
@@ -170,6 +163,8 @@ const config = {
       "Have a quick idea of what you would want removed if you win",
       "Follow Colin Noble on Instagram or Facebook for the winner post"
     ],
+    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
+    "showTipsSection": true,
     "fairSelectionInfo": {
       "title": "Fair and Random Winner Selection",
       "text": "We use a random draw. Every valid entry has the same chance to win. No tricks. No bias."
@@ -190,7 +185,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750445840887_0",
+      "id": "q_auto_1779462372684_0",
       "questionText": "What's your current situation?",
       "options": [
         {
@@ -212,7 +207,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_1",
+      "id": "q_auto_1779462372684_1",
       "questionText": "What are you looking to do?",
       "options": [
         {
@@ -238,7 +233,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_2",
+      "id": "q_auto_1779462372684_2",
       "questionText": "When are you planning to move?",
       "options": [
         {
@@ -264,6 +259,18 @@ const config = {
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You’re In the Running!",
+    "mainMessage": "Your entry for the <strong>Uxbridge Home Refresh Giveaway</strong> is in. We will draw on June 19, 2026 and contact the winner by email. Good luck!",
+    "socialPromptText": "Watch your inbox on June 19. We will also share the winner on our social pages."
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/colinnoblerealestate",
