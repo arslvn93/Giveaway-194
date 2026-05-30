@@ -30,7 +30,7 @@ const config = {
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/XfP1sfPIdHajBsP1D4Jo/webhook-trigger/nv3LKvViIGZDJDKHcXiu",
     "facebookPixelId": "842438822164621",
     "turnstileSiteKey": "",
-    "salesGeniusAppApi": "",
+    "salesGeniusAppApi": "api_95a5cdcb07563366223de04d123994f9",
     "followUpBossEmail": "",
     "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
@@ -185,7 +185,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1780124747227_0",
+      "id": "q_auto_1780127152576_0",
       "questionText": "What's your current situation?",
       "options": [
         {
@@ -207,7 +207,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1780124747227_1",
+      "id": "q_auto_1780127152576_1",
       "questionText": "What are you looking to do?",
       "options": [
         {
@@ -233,7 +233,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1780124747227_2",
+      "id": "q_auto_1780127152576_2",
       "questionText": "When are you planning to move?",
       "options": [
         {
